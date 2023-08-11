@@ -1,0 +1,20 @@
+print("Hello World. This is my first Python program.")
+#The above demonstrates a simple line of code
+print("Knock Knock")
+print("Who's there?")
+print("Kanga")
+print("Kanga who?")
+print("Kangaroo")
+#demonstrates Multiple line of code
+print("Lorrie," *6)
+#demonstrates Duplication of a string
+print("super," *8 + "cool")
+#demonstrates concatenation plus duplication in one line of code
+
+prices = {'pear': 12.50, 'peach': 5.99}
+my_purchase = {
+    'pear': 3,
+    'peach': 5}
+grocery_bill =sum(prices[fruit] * my_purchase[fruit]
+                  for fruit in my_purchase)
+print ('I owe the grocer $%.2f' % grocery_bill)
